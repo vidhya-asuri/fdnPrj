@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
-  <body>
+  <body> 
+<div class="row">
+  <div class="small-2 large-4 columns">
+        <div class="panel">
+          <img class="udacity_logo" src="./images/udacity_logo.svg"/>
+        </div>
+  </div> 
+  <div class="small-10 large-8 columns"> <div class="panel"> <h2> Name  </h2></div></div>
+</div>
+
     <div class="row">
       <div class="large-12 columns">
         <h1>Welcome to Foundation</h1>
@@ -16,6 +25,9 @@
     
     <div class="row">
       <div class="large-12 columns">
+        <div class="panel">
+             <h1>Welcome to Foundation</h1>
+        </div>
       </div>
     </div>
     <div class="row">
