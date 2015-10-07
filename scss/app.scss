@@ -1,6 +1,5 @@
 @import "settings";
 @import "foundation";
-
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
@@ -38,3 +37,8 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+.udacity_logo{
+  max-width: 100%;
+  max-height:100%;
+}
