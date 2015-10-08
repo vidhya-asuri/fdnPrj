@@ -10,7 +10,7 @@
   <body> 
     <div class="row" data-equalizer>
       <div class="small-offset-2 small-4 large-offset-4 large-2 columns" data-equalizer-watch>
-          <img class="udacity_logo" src="./images/map.jpg"/> 
+          <img class="udacity_logo" src="./images/udacity_logo.svg"/> 
       </div>
       <div class="small-offset-2 small-4 large-offset-4 large-2 columns" data-equalizer-watch>
           <ul class="small-block-grid-1">      
@@ -48,6 +48,24 @@
             <li> <img src="./images/map.jpg"/> </li>
             <li> <img src="./images/dog.jpg"/> </li>
             <li> <img src="./images/quilt.jpg"/> </li>
+          </ul>
+      </div>         
+    </div> 
+    <div class="row">
+      <div class="small-offset-2 small-10 large-offset-4 large-8 columns">
+          <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+            <li class="featured-work-text" > APPIFY </li>
+            <li class="featured-work-text" > GAMES </li>
+            <li class="featured-work-text" > BOOKS </li>
+          </ul>
+      </div>         
+    </div> 
+    <div class="row">
+      <div class="small-offset-2 small-10 large-offset-4 large-8 columns">
+          <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+            <li class="featured-work-text" > <a href="index.html"> Visit Appify  </a> </li>
+            <li class="featured-work-text" > <a href="index.html"> Take me out to the ballgame </a> </li>
+            <li class="featured-work-text" > <a href="index.html"> Book reviews!! </a> </li>
           </ul>
       </div>         
     </div> 
