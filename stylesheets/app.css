@@ -15,6 +15,13 @@
 .featured-work-text{
   text-align: center;
 }
+.name-align-right{
+  text-align: right;
+}
+
+.role-align-right{
+  text-align: right;
+}
 
 /* line 364, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
