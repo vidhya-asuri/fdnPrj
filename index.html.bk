@@ -41,7 +41,7 @@
  
     <div class="row" data-equalizer>
       <!-- <div class="small-offset-2 small-5 large-offset-4 large-3 columns" data-equalizer-watch> -->
-      <div class="small-3 large-7 columns" data-equalizer-watch>
+      <div class="small-3 large-offset-2 large-5 columns" data-equalizer-watch>
           <img class="udacity_logo" src="./images/dog.jpg"/> 
       </div>
       <div class="small-9 large-5 columns" data-equalizer-watch>
@@ -52,13 +52,46 @@
           </ul>
       </div>
     </div>
+    </br>
+    <div class="row">
+      <div class="small-12 large-offset-2 large-10 columns">
+        <div class="separator-panel panel">
+        </div>     
+      </div>
+    </div> 
+    <!-- <div class="row div-hidden">
+      <div class="small-offset-1 small-11 large-offset-2 large-10 columns">
+          <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
+            <li class="featured-work-text" > <img src="./images/map.jpg"/> </br>  APPIFY </br> <a href="index.html"> Visit Appify  </a> </li>
+            <li class="featured-work-text" > <img src="./images/map.jpg"/> </br>  GAMES </br> <a href="index.html"> Ballgame! </a> </li>
+            <li class="featured-work-text" > <img src="./images/map.jpg"/> </br> BOOKS </br> <a href="index.html"> Book reviews </a></li>
+          </ul>
+      </div>         
+    </div> --> 
+    <div class="row div-hidden">
+      <div class="small-4 columns">
+        <div class="panel">
+          <a href="./images/map.jpg"> <img src="./images/map.jpg"/> </a>
+        </div> 
+      </div>
+      <div class="small-4 columns">
+        <div class="panel">
+          <a href="./images/map.jpg"> <img src="./images/map.jpg"/> </a>
+        </div> 
+      </div>
+      <div class="small-4 columns">
+        <div class="panel">
+          <a href="./images/map.jpg"> <img src="./images/map.jpg"/> </a>
+        </div> 
+      </div>
+    </div> 
     <div class="row" >
-      <div class="small-1 large-2 columns" >
+      <div class="large-2 columns imgs-row" >
           <a class="th" href="./images/map.jpg"> <img src="./images/map.jpg"/> </a>
           <a class="th" href="./images/map.jpg"> <img src="./images/map.jpg"/> </a>
           <a class="th" href="./images/map.jpg"> <img src="./images/map.jpg"/> </a>
       </div>
-      <div class="small-11 large-10 columns"> 
+      <div class="large-10 columns remove-offset-2"> 
         <div class="panel">
              <h1>Welcome to Foundation</h1>
         </div>
@@ -84,7 +117,7 @@
       <div class="small-offset-1 small-11 large-offset-2 large-10 columns">
           <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
             <li class="featured-work-text" > <img src="./images/map.jpg"/> </br>  APPIFY </br> <a href="index.html"> Visit Appify  </a> </li>
-            <li class="featured-work-text" > <img src="./images/map.jpg"/> </br>  GAMES </br> <a href="index.html"> Take me out to the ballgame </a> </li>
+            <li class="featured-work-text" > <img src="./images/map.jpg"/> </br>  GAMES </br> <a href="index.html"> Ballgame! </a> </li>
             <li class="featured-work-text" > <img src="./images/map.jpg"/> </br> BOOKS </br> <a href="index.html"> Book reviews </a></li>
           </ul>
       </div>         
