@@ -9447,13 +9447,24 @@ th.hide-for-touch {
 }
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (min-width: 64.063em) {
-  /* line 15, ../scss/app.scss */
+  /* line 14, ../scss/app.scss */
   .div-hidden {
     display: none;
   }
 }
 /* min-width 1025px, large screens */
-/* line 22, ../scss/app.scss */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 23, ../scss/app.scss */
+  .div-hidden {
+    display: none;
+  }
+
+  /* line 27, ../scss/app.scss */
+  .imgs-row {
+    display: none;
+  }
+}
+/* line 33, ../scss/app.scss */
 .separator-panel {
   border-style: solid;
   border-width: 1px;
@@ -9487,39 +9498,39 @@ th.hide-for-touch {
   line-height: 1.4;
 }
 
-/* line 28, ../scss/app.scss */
+/* line 39, ../scss/app.scss */
 .udacity_logo {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 33, ../scss/app.scss */
+/* line 44, ../scss/app.scss */
 .body-with-margin {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-/* line 38, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
 .name-padding-top {
   padding-top: 2rem;
 }
 
-/* line 42, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
 .featured-work-text {
   text-align: center;
 }
 
-/* line 45, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 .name-align-right {
   text-align: right;
 }
 
-/* line 49, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 .role-align-right {
   text-align: right;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 102, ../scss/app.scss */
 .udacity_logo {
   max-width: 100%;
   max-height: 100%;
