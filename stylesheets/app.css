@@ -9439,31 +9439,36 @@ th.hide-for-touch {
     display: none !important;
   }
 }
+/*
 @media only screen and (max-width: 40em) {
-  /* line 6, ../scss/app.scss */
-  .imgs-row {
-    display: none;
-  }
-}
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-@media only screen and (min-width: 64.063em) {
-  /* line 14, ../scss/app.scss */
-  .div-hidden {
-    display: none;
-  }
-}
-/* min-width 1025px, large screens */
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 23, ../scss/app.scss */
-  .div-hidden {
-    display: none;
-  }
 
-  /* line 27, ../scss/app.scss */
-  .imgs-row {
-    display: none;
-  }
+.imgs-row{
+   display: none;   
 }
+
+} 
+
+@media only screen and (min-width: 64.063em) {
+
+ .div-hidden{
+   display: none;   
+ }
+
+} 
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  
+ .div-hidden{
+   display: none;   
+ }
+
+ .imgs-row{
+   display: none;   
+ }
+
+}
+*/
 /* line 33, ../scss/app.scss */
 .separator-panel {
   border-style: solid;
