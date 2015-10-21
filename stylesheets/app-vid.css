@@ -6344,8 +6344,8 @@ ul.pagination li {
   position: relative;
   /*-webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none; vid*/
-  user-select: none;
+  -ms-user-select: none; vid
+  user-select: none;  vid */
 }
 /* line 58, ../bower_components/foundation/scss/foundation/components/_switches.scss */
 .switch label {
@@ -9358,7 +9358,7 @@ vid */
   }
 
   @page {
-    margin: .5cm;
+    /* margin: .5cm; vid */
   }
   /* line 458, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   p,
@@ -9393,7 +9393,7 @@ vid */
   .show-for-print {
     display: inherit !important;
   }
-}
+/* } vid */
 /* Print visibility */
 @media print {
   /* line 477, ../bower_components/foundation/scss/foundation/components/_visibility.scss */

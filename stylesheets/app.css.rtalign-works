@@ -4065,7 +4065,7 @@ label small {
 /* Adjust padding, alignment and radius if pre/post element is a button */
 /* line 408, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .postfix.button {
-  border-color: blue; /* vid */
+  border-color: true;
 }
 
 /* line 409, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -4304,8 +4304,7 @@ select {
   -moz-appearance: none !important;
   background-color: #FAFAFA;
   border-radius: 0;
-  /*background-image:  url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);*/ 
-  background-image:  url("./images/dog-small.jpg"); 
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
   background-position: 100% center;
   background-repeat: no-repeat;
   border-style: solid;
@@ -4616,7 +4615,7 @@ label.error {
 .icon-bar .item.disabled {
   cursor: not-allowed;
   opacity: 0.7;
-  /* pointer-events: none; vid */
+  pointer-events: none;
 }
 /* line 205, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar .item.disabled > * {
@@ -5213,7 +5212,6 @@ kbd {
   line-height: 1.8em;
 }
 
-/* vid
 @-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -5223,8 +5221,7 @@ kbd {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-} vid */
-
+}
 @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -5810,8 +5807,8 @@ ul.pagination li {
   border: 1px solid #DDDDDD;
   margin: 1.25rem 0;
   position: relative;
-  /*-ms-touch-action: none;
-  touch-action: none; vid */
+  -ms-touch-action: none;
+  touch-action: none;
   display: block;
   height: 1rem;
   width: 100%;
@@ -5822,8 +5819,8 @@ ul.pagination li {
   border: 1px solid #DDDDDD;
   margin: 1.25rem 0;
   position: relative;
-  /* -ms-touch-action: none;
-  touch-action: none; vid */
+  -ms-touch-action: none;
+  touch-action: none;
   display: inline-block;
   height: 12.5rem;
   width: 1rem;
@@ -5909,8 +5906,8 @@ ul.pagination li {
   top: -0.3125rem;
   width: 2rem;
   z-index: 1;
-  /* -ms-touch-action: manipulation;
-  touch-action: manipulation; */
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
   background: #008CBA;
 }
 /* line 118, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
@@ -6344,12 +6341,11 @@ ul.pagination li {
   outline: 0;
   padding: 0;
   position: relative;
-  /* -webkit-user-select: none;
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; */
+  user-select: none;
 }
-
 /* line 58, ../bower_components/foundation/scss/foundation/components/_switches.scss */
 .switch label {
   background: #DDDDDD;
@@ -6745,7 +6741,7 @@ table tr td {
   border: solid 5px;
   display: block;
   height: 0;
-  /* pointer-events: none; vid*/
+  pointer-events: none;
   position: absolute;
   top: -10px;
   width: 0;
@@ -6975,7 +6971,7 @@ meta.foundation-mq-topbar {
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_global.scss */
 .top-bar .toggle-topbar.menu-icon a span:hover:after {
-  box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+  box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px "";
 }
 /* line 268, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded {
@@ -6994,8 +6990,7 @@ meta.foundation-mq-topbar {
 .top-bar.expanded .toggle-topbar a span::after {
   box-shadow: 0 0 0 1px #888888, 0 7px 0 1px #888888, 0 14px 0 1px #888888;
 }
-/* @media screen and (-webkit-min-device-pixel-ratio: 0) { vid */
-@media screen { 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* line 293, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded .top-bar-section .has-dropdown.moved > .dropdown,
   .top-bar.expanded .top-bar-section .dropdown {
@@ -7402,8 +7397,8 @@ meta.foundation-mq-topbar {
 
   /* line 528, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section {
-    /* transition: none 0 0;
-    left: 0 !important; vid */
+    transition: none 0 0;
+    left: 0 !important;
   }
   /* line 532, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section ul {
@@ -7886,7 +7881,7 @@ p {
   font-weight: normal;
   line-height: 1.6;
   margin-bottom: 1.25rem;
-  /*text-rendering: optimizeLegibility; vid */
+  text-rendering: optimizeLegibility;
 }
 /* line 242, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p.lead {
@@ -7910,7 +7905,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
-  /* text-rendering: optimizeLegibility; vid */
+  text-rendering: optimizeLegibility;
 }
 /* line 262, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -9317,22 +9312,23 @@ th.hide-for-touch {
   a:visited {
     text-decoration: underline;
   }
+
   /* line 434, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  /* a[href]:after {
+  a[href]:after {
     content: " (" attr(href) ")";
-  }  vid */
+  }
 
   /* line 436, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  /*abbr[title]:after {
+  abbr[title]:after {
     content: " (" attr(title) ")";
-  } vid */
+  }
 
   /* line 439, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
-  /* .ir a:after,
+  .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
-  } */
+  }
 
   /* line 443, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   pre,
@@ -9357,11 +9353,10 @@ th.hide-for-touch {
   img {
     max-width: 100% !important;
   }
-/* vid 
-  @page {
-     margin: .5em; 
-  } vid */
 
+  @page {
+    margin: .5cm;
+  }
   /* line 458, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   p,
   h2,
@@ -9395,9 +9390,7 @@ th.hide-for-touch {
   .show-for-print {
     display: inherit !important;
   }
-} 
-
-
+}
 /* Print visibility */
 @media print {
   /* line 477, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
