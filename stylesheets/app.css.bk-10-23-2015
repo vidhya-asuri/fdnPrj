@@ -5212,7 +5212,6 @@ kbd {
   line-height: 1.8em;
 }
 
-/*
 @-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -5222,8 +5221,7 @@ kbd {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-} */
-
+}
 @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -7613,8 +7611,6 @@ meta.foundation-mq-topbar {
     position: absolute !important;
   }
 }
-/* $header-text-rendering: 0.5rem !default;  */
-/*$paragraph-text-rendering: 0.5rem !default; */
 /* line 155, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .text-left {
   text-align: left !important;
@@ -7894,7 +7890,7 @@ p {
   font-weight: normal;
   line-height: 1.6;
   margin-bottom: 1.25rem;
-  /* text-rendering: $paragraph-text-rendering; */
+  text-rendering: 0.5rem;
 }
 /* line 242, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p.lead {
@@ -7918,7 +7914,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   margin-bottom: 0.5rem;
   margin-top: 0.2rem;
-  /* text-rendering: $header-text-rendering; */
+  text-rendering: 0.5rem;
 }
 /* line 262, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -8207,8 +8203,6 @@ blockquote p {
     font-size: 1rem;
   }
 }
-/* $header-text-rendering: 0.5rem !default;  */
-/*$paragraph-text-rendering: 0.5rem !default; */
 /* line 386, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .off-canvas-wrap {
   -webkit-backface-visibility: hidden;
@@ -9330,8 +9324,16 @@ th.hide-for-touch {
     text-decoration: underline;
   }
 
-  /* a[href]:after { content: " (" attr(href) ")"; } */
-  /* abbr[title]:after { content: " (" attr(title) ")"; } */
+  /* line 434, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 436, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
   /* line 439, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
@@ -9363,7 +9365,9 @@ th.hide-for-touch {
     max-width: 100% !important;
   }
 
-  /* @page { margin: .5em; }*/
+  @page {
+    margin: .5cm;
+  }
   /* line 458, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   p,
   h2,
